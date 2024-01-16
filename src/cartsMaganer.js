@@ -1,6 +1,6 @@
 /* --------------CAPA DE NEGOCIO---------------- */
 const CartsManager = require("./productMaganer");
-const pm = new CartsManager("./productos.json");
+const pm = new CartsManager("./src/productos.json");
 
 const fs = require("fs").promises;
 class ProductManager {
